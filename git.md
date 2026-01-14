@@ -99,7 +99,7 @@ git branch -M main
 git push -u origin main
 ```
 #### Important: For Step 4 to be successful, two things must be true:
-1. You have successfully added your public key to your settings on github. Confirm with `ssh -T git@github.com`
+1. You have successfully [added your public key](./ssh.md) to your settings on github. Confirm with `ssh -T git@github.com`
 2. Your origin must be correct. Confirm with `git remote -v` and it must respond with:
 ```bash
 origin  git@github.com:studentname/CSCI11_SP26_Student.git (fetch)
