@@ -1,7 +1,7 @@
 # Markdown Reference Sheet
 
-Markdown guide, in VS Code, use the two columns with a magnifying class in the tab space to view the applied formatting.
-![](./preview.png)
+A quick guide to Markdown. In VS Code, use the two columns with a magnifying class in the tab space to view the applied formatting.
+![](./static/preview.png)
 
 ## Text Formatting
 
@@ -78,13 +78,16 @@ pwd
 
 > This is a blockquote.
 > It can span multiple lines.
-
+> It will be as long as the line allows.
+> Then it will roll over to the next line.
 
 ## Horizontal Rule
 
 ---
 
 ## Tables
+
+In the ----- line, use a ":" on the left for left-justified text, both sides for centered and right-side for right-justified text.
 
 | Header 1 | Header 2 | Header 3 | Header 4 |
 | -------- | :------: | :------- | -------: |
