@@ -111,13 +111,13 @@ In this repository are three folders, which are labeled appropriately for the co
 
 ```
 CSCI11_Student/
-    ├── digital/
+    ├── digital_design/
         |── week2
         |── week3
-    ├── assembly/
+    ├── LC3/
         |── week5
         |── week6
-    └── c/
+    └── C/
         |── week10
         |── week11
 ```

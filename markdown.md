@@ -70,8 +70,8 @@ pwd
 
 ## Links and Images
 
-- Link: `[Link text](https://example.com)`
-- Image: `![Alt text](image.jpg)`
+- Link: [Link text: wellys.com](https://wellys.com)
+- Image: ![Alt text](./static/Lilly.png)`
 
 ## Blockquotes
 
