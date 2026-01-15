@@ -23,7 +23,18 @@ For *CSCI11 Spring 2026*, there are **two** repositories:
 4. In a terminal session in VS Code, enter `git clone ` and paste the address following the word *clone*, ensuring there is a space between *clone* and the address. Press *return*.
 5. Enter `cd CSCI11_Sp26_Student` to enter the directory.
 
-### 2. Connect your **local** repository to your **Github** repository.
+### 2. Create your **remote** repository in your **Github** account.
+
+   1. **In your Github account**, make sure your are logged in and click on Repositories, then click the green button New.
+   ![](./static/repos.png)
+
+   2. Fill in the name of the repo to be exactly the same as the one you have cloned: CSCI11_Sp26_Student
+   *Note, I left off the "t" for the image, otherwise I'd have an error,*
+   Be sure to make the repository Private, all other boxes will stay the same then click on the green button Create Repository
+   ![](./static/create_repo.png)
+
+
+### 3. Connect your **local** repository to your **Github** repository.
 
 Perform the four commands below, **one by one**, ensuring there is **NOT** an error, before going to the next step:
    1. Remove the original connection, if the result is "*error: No such remote: origin*", this is fine:
