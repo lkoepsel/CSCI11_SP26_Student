@@ -16,6 +16,11 @@ For *CSCI11 Spring 2026*, there are **two** repositories:
 
 ### 1. Clone this repository
 
+Before starting, it will be helpful to review this image of the completed commands below.
+
+![](./static/git_clone.png)
+
+
 1. Open a Terminal session in VS Code, using *Terminal -> New Terminal*.
    1. Enter `cd` to ensure you are in your home directory
    2. Enter `pwd` to show the path of your directory, write it down so you are aware of it
@@ -27,7 +32,6 @@ For *CSCI11 Spring 2026*, there are **two** repositories:
 3. CLick on the double boxes at the end of the "*git@github....*" *See blue arrow*.
 ![](./static/doubleboxes.png). 
 4. In a terminal session in VS Code, enter `git clone ` and paste the address following the word *clone*, ensuring there is a space between *clone* and the address. Press *return*.
-![](./static/git_clone.png)
 5. In the Terminal, enter `cd CSCI11_Sp26_Student` to enter the directory.
 
 ### 2. Create your **remote** repository in your **Github** account.
