@@ -84,6 +84,22 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+### Complete Terminal Session
+Your session will look almost the same as the one below. The last commmand will have a different response, as you will be updating your repo and not mine.
+
+![](./static/complete_git.png)
+
+Your response on the last command will be similar to:
+```bash
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 249 bytes | 249.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:lkoepsel/test.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+```
+
 ## Ongoing Operations:
 
 ### To get the latest assignment, in the CSCI11_Instructor folder
