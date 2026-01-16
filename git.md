@@ -16,7 +16,12 @@ For *CSCI11 Spring 2026*, there are **two** repositories:
 
 ### 1. Clone this repository
 
-1. Open a Terminal session in VS Code, using *Termincal -> New Terminal*. Setup your screen so half of the screen is VS Code and the other half is your browser.
+1. Open a Terminal session in VS Code, using *Terminal -> New Terminal*.
+   1. Enter `cd` to ensure you are in your home directory
+   2. Enter `pwd` to show the path of your directory, write it down so you are aware of it
+   3. If you wish, you may go to a specific directory in your home folder by entering `cd Documents` or `cd MyDocuments`
+   4. **What is important is to know where you are going to store this repository.**
+1. Setup your screen so half of the screen is VS Code and the other half is your browser.
 1. Open anthor tab in your browser by right-clicking on this link [CSCI11_Sp26_Student](https://github.com/lkoepsel/CSCI11_Sp26_Student) and select on in *Open Link in New Tab*.
 2. In the new tab, click on the Green Code button. *See green arrow.*
 3. CLick on the double boxes at the end of the "*git@github....*" *See blue arrow*.
@@ -84,7 +89,7 @@ git config --global user.email johndoe@example.com
    ```
 
    2. To **update** your work on GitHub:
-   - Be sure to use the week-specific folders in the ```student``` folder then commit and push to your repository using VS Code Source Control or Terminal:
+   - Be sure to use the week-specific directories in the ```student``` directory then commit and push to your repository using VS Code Source Control or Terminal:
    ```bash
    git add -A # to add (stage) all of the changes
    git commit -m "adding my changes for week 5" # to commit your changes
@@ -93,9 +98,9 @@ git config --global user.email johndoe@example.com
 
 ## Overview
 
-Your folder structure must be the following:
+Your directory structure must be the following:
 1. Repository Structure:
-   - Your top folder (*Documents, below*), might be *Desktop*, *OneDrive*, *MyDocuments* or something else.
+   - Your top directory (*Documents, below*), might be *Desktop*, *OneDrive*, *MyDocuments* or something else.
 ```
 Documents/
 ├── CSCI11_Sp26_Instructor/ (Assignment repository)
@@ -128,7 +133,7 @@ The content in CSCI11 will cover three areas:
 * LC3 Assembly Language
 * C Language
 
-In this repository are three folders, which are labeled appropriately for the content. The weekly assignments will be placed in folders labeled by week in the appropriate content, looking similar to this:
+In this repository are three directories, which are labeled appropriately for the content. The weekly assignments will be placed in directories labeled by week in the appropriate content, looking similar to this:
 
 ```
 CSCI11_Student/
